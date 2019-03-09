@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "QRCoder",
+    "version": "2.0",
+  
+    "description": "Quickly get QR Code for currently open page. Now using in-browser QR code generator. Source code is available at https://github.com/chall3ng3r/QRCoder-Chrome",
+  
+    "icons": {
+		"32": "gfx/qr-coder-32.png",
+		"48": "gfx/qr-coder-48.png",
+		"96": "gfx/qr-coder-96.png"
+    },
+
+    "permissions": [
+        "activeTab",
+		"tabs"
+    ],
+
+    "browser_action": {
+        "default_icon": {
+			"32": "gfx/qr-coder-32.png",
+			"48": "gfx/qr-coder-48.png",
+			"96": "gfx/qr-coder-96.png"
+		},
+        "default_title": "QR Coder",
+        "default_popup": "popup/qrcoder.html"
+      }
+  }
