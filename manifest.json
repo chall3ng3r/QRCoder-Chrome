@@ -3,7 +3,7 @@
     "name": "QRCoder",
     "version": "2.0",
   
-    "description": "Quickly get QR Code for currently open page. Now using in-browser QR code generator. Source code is available at https://github.com/chall3ng3r/QRCoder-Chrome",
+    "description": "Quickly get QR Code for currently open page. Now using in-browser QR code generator.",
   
     "icons": {
 		"32": "gfx/qr-coder-32.png",
